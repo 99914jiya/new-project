@@ -1,0 +1,103 @@
+.f1{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex
+    
+     }
+     .f2{
+        background-color: aqua;
+        padding: 30px;
+        width: 300px;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0 8px 10px gray;
+        
+      }
+      .f2 :hover{
+        transform:scale(1.05);
+      }
+      .img{
+        width:120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border:3px solid white;
+        box-shadow: 0 0 10 px gray;
+        margin-bottom: 10px;
+      }
+      .t{
+      height: 100px;
+      background-color: aqua;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      }
+      .menu{
+        display: flex;
+        
+      }
+      li{
+        list-style-type: none;
+        padding: 5px 10px;
+      }
+      .menu:hover{
+        color: black;
+        font-weight: bold;
+        transition: all .3s ease;
+        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+.menu:hover{
+  color: red;
+transform: scale(1,1);
+background-color:pink;
+}
+.p1{
+width:120px;
+ height: 100px;
+ border-radius: 50%;
+ object-fit: cover;
+ border:3px solid white;
+  box-shadow: 0 0 10 px gray;
+  margin-left: 10px;
+}
+.op{
+  background-color: pink;
+  text-align: center;
+}
+.best{
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.productcard{
+  width: 250px;
+  padding: 10px;
+}
+.productcard img{
+  width: 200px;
+}
+.title{
+  font-size: 25px;
+  color: black;
+}
+.discription{
+  font-size: 20px;
+  color: rgb(12, 12, 12);
+}
+.button:hover{
+  background-color: rgb(255, 246, 246);
+  color: black;
+
+
+
+}
+.button{
+  background-color: black;
+    border: none;
+  outline: none;
+  color: aliceblue;
+  padding: 15px;
+  font-size: 15px;
+}
